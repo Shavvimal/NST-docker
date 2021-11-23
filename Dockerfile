@@ -16,6 +16,8 @@ RUN apk update \
     && pip install psycopg2 \
     && apk del build-deps
 
+RUN /usr/local/bin/python -m pip install --upgrade pip
+
 RUN pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.12.0-py3-none-any.whl
 
 # install dependencies
