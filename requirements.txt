@@ -1,5 +1,2 @@
-tensorflow==2.3.0
 Django==3.2.9
-numpy
-Pillow
 gunicorn==20.0.4
