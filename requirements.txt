@@ -1,6 +1,5 @@
-Django
-numpy
+Django==3.2.9
+numpy==1.21.4
 Pillow==8.4.0
 tensorflow==2.3.0
-pathlib
 gunicorn==20.0.4
