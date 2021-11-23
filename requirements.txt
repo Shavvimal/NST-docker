@@ -1,0 +1,6 @@
+Django
+numpy
+Pillow==8.4.0
+tensorflow-cpu
+pathlib
+gunicorn==20.0.4
