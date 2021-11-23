@@ -1,6 +1,6 @@
 Django
 numpy
-Pillow
-tensorflow
+Pillow==8.4.0
+tensorflow==2.3.0
 pathlib
 gunicorn==20.0.4
