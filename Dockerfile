@@ -16,6 +16,8 @@ RUN apk update \
     && pip install psycopg2 \
     && apk del build-deps
 
+RUN import struct;print(struct.calcsize("P") * 8)
+
 # install dependencies
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt
