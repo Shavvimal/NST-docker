@@ -16,7 +16,7 @@ RUN apk update \
     && pip install psycopg2 \
     && apk del build-deps
 
-RUN import struct;print(struct.calcsize("P") * 8)
+RUN pip install https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.12.0-py3-none-any.whl
 
 # install dependencies
 COPY ./requirements.txt .
