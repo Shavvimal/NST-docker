@@ -13,3 +13,4 @@ https://devcenter.heroku.com/articles/container-registry-and-runtime
 
 http://localhost:5000/nst/?content=https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg&style=https://media.sanctuarymentalhealth.org/wp-content/uploads/2021/03/04151535/The-Starry-Night.jpg
 
+https://testdriven.io/blog/deploying-django-to-heroku-with-docker/
